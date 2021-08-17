@@ -1,0 +1,101 @@
+.post{
+    width: 550px;
+    border: 1px solid lightgray;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.post__header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 10px;
+}
+h3{
+    margin-left: 10px;
+}
+.post__imageURL{    
+    width: 100%;
+    max-height: 550px;
+    /* min-height: 450px; */
+    background-color: rgb(148, 148, 158);
+    outline: none;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+h4{
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.app__posts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.btnAcceptDecline{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.btnAcceptDecline .left{
+    flex: 1;
+    background-color: rgb(21, 110, 21);
+    color: white;
+}
+.btnAcceptDecline .left:hover{
+    background-color: rgb(29, 92, 29);
+}
+.btnAcceptDecline .right{
+    flex: 1;
+    background-color: rgb(180, 22, 22);
+    color: white;
+}
+.btnAcceptDecline .right:hover{
+    background-color: rgb(141, 22, 22);
+
+}
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width:550px) {
+    
+    .post{
+        width:500px;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .post{
+        width: 450px;
+    }
+}
+@media screen and (max-width:450px) {
+    .post{
+        width: 400px;
+    }
+}
+
+  @media screen and (max-width:400px) {
+    .post{
+        width: 350px;
+    }
+}
+@media screen and (max-width:350px) {
+    .post{
+        width: 300px;
+    }
+}
+@media screen and (max-width:300px) {
+    .post{
+        width: 250px;
+    }
+}
